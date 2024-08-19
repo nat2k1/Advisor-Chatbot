@@ -108,5 +108,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact Information
 
 For further questions or collaborations, please reach out via GitHub: [nat2k1](https://github.com/nat2k1).
-
 ```
+
+Feel free to customize this as needed! Once you copy and paste this into your `README.md` file, it will provide a detailed and professional overview of your project on GitHub.
