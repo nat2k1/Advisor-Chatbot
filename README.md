@@ -1,9 +1,6 @@
-```markdown
 # Advisor Chatbot Project
 
 ### A Natural Language Processing-Based Solution for Academic Advising
-
-![Chatbot Demo](demo-image.png) <!-- Replace this with a relevant image/gif from your project -->
 
 ## Project Overview
 
@@ -26,16 +23,22 @@ This project is an AI-powered chatbot designed to assist students with academic 
 
 The project is structured as follows:
 
-```
-├── Data/                          # Datasets and logs
-├── Models/                        # Saved model versions
-├── Preprocessing.py               # Script for data preprocessing
-├── NLP.py                         # Script for NLP-related functions
-├── ML.py                          # Script for machine learning model functions
-├── Train.py                       # Script for training the chatbot
-├── Chatbot.py                     # Main script to run the chatbot
-├── README.md                      # Project documentation
-```
+├── Data/ # Datasets and logs
+
+├── Models/ # Saved model versions
+
+├── Preprocessing.py # Script for data preprocessing
+
+├── NLP.py # Script for NLP-related functions
+
+├── ML.py # Script for machine learning model functions
+
+├── Train.py # Script for training the chatbot
+
+├── Chatbot.py # Main script to run the chatbot
+
+├── README.md # Project documentation
+
 
 ## Setup Instructions
 
@@ -47,11 +50,9 @@ Start by cloning this repository to your local machine:
 git clone https://github.com/nat2k1/Advisor-Chatbot.git
 cd Advisor-Chatbot
 ```
-
 ### 2. Install Required Dependencies
 
 Make sure you have Python installed. Then, install the required libraries:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -59,7 +60,6 @@ pip install -r requirements.txt
 ### 3. Running the Chatbot
 
 To launch the chatbot, simply run:
-
 ```bash
 python Chatbot.py
 ```
@@ -67,24 +67,22 @@ python Chatbot.py
 ### 4. Training the Model (Optional)
 
 If you want to train the model from scratch, use the following command:
-
 ```bash
 python Train.py
 ```
 
 This will preprocess the data, train the model, and save the best-performing version.
-
 ### 5. Updating the Model
 
-To update the model with new data or configurations, ensure the latest dataset is in the `Data/` folder, then run the training script again.
+To update the model with new data or configurations, ensure the latest dataset is in the Data/ folder, then run the training script again.
 
 ## Model Performance
 
 The model has been trained on a combination of the IMDB dataset and a custom FAQ dataset. It achieves the following metrics:
 
-- **Validation Accuracy:** ~87%
-- **Validation Loss:** ~0.59
-- **Training Time:** Approximately 30 minutes per epoch on average hardware
+    Validation Accuracy: ~87%
+    Validation Loss: ~0.59
+    Training Time: Approximately 30 minutes per epoch on average hardware
 
 ## Challenges and Solutions
 
@@ -103,11 +101,8 @@ Contributions are welcome! Please fork this repository, create a new branch, and
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact Information
 
-For further questions or collaborations, please reach out via GitHub: [nat2k1](https://github.com/nat2k1).
-```
-
-Feel free to customize this as needed! Once you copy and paste this into your `README.md` file, it will provide a detailed and professional overview of your project on GitHub.
+For further questions or collaborations, please reach out via GitHub: nat2k1.
